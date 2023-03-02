@@ -28,19 +28,14 @@ let questions = inquirer
       },
       {
         type: 'input',
-        name: 'guidelines',
-        message: 'What is your contribution guidelines?',
-      },
-      {
-        type: 'input',
-        name: 'test',
-        message: 'What is your test instructions?',
+        name: 'contributors',
+        message: 'Who are the contributors',
       },
       {
         type: 'list',
         message: 'What license do you prefer',
         name: 'license',
-        choices: ['Apache', 'Boost', 'BSD', 'CC0'],
+        choices: ['Apache', 'Boost', 'BSD', 'CC0','N/A'],
       },
       {
         type: 'input',
